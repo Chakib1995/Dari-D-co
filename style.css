@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    
+    padding: 0;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+}
+li {
+    list-style-type: none;
+    font-family: 'Dancing Script', cursive;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+    font-family: 'Indie Flower', cursive;
+    
+}
+p{
+    display: block;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2em;
+    
+}
+a {
+    text-decoration: none;
+    color:black;
+    font-family: 'Dancing Script', cursive;
+}
+/* *************** nav bar ******** */
+nav {
+    overflow:  hidden;
+    background-color: beige;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+    font-family: 'Dancing Script', cursive;
+}
+header li{
+    float: right;
+    font-size: 1.2em;
+    font-family: 'Dancing Script', cursive;
+}
+header li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+    font-family: 'Dancing Script', cursive;
+}
+#logo {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold ;
+    float: left;
+}
+/******** Image principale**********/
+#imagPrin{
+    padding-top: 60px ;
+    background: url(media/acceuil.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 6em;
+    margin-top:120px ;
+    text-shadow: 1px 5px 2px rgb(172, 133, 133);
+}
+#premierTrait{
+    height: 1px;
+    width: 40%;
+    margin: -3px auto;
+    background-color: blanchedalmond;
+}
+h3{
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 3em;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    text-shadow: 1px 5px 2px rgb(172, 133, 133);
+}
+/********* pre*******/
+#presentation{
+    background-color: burlywood;
+padding: 10px 0px 100px 0;
+}
+#textInto{
+    padding: 0px 20%;
+}
+#textInto p{
+    font-family: 'Dancing Script',cursive;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+#present{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+
+}
+.imageP h4{
+    font-family: 'Dancing Script',cursive;
+    text-align: center;
+    font-size: 0.9em;
+    margin: 15px;
+    font-weight: 300;
+}
+.imageP img{
+    border-radius: 20px; 
+    box-shadow: 5px 8px 5px 4px rgb(92, 52, 52);
+}
+.imageP img:hover{
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+}
+/* **************** TOURISME ********************** */
+#tableau {
+    height: 1400px;
+    background-color: rgb(228, 200, 165);
+    padding: 1px 2%;
+  }
+  #tableau h2 {
+    padding-top: 60px;
+  }
+  #ocean {
+    background: url(media/8.jpg); 
+  }
+  #tradition {
+    background: url(media/6.JPG);
+  }
+  #nature {
+    background: url(media/7.JPG);
+  }
+  #aquarel{
+      background: url(media/9.jpg);
+  }
+  #tableau li {
+    margin: 65px 100px 0 200px;
+    height: 205px;
+    width: 55%;
+    max-width: 392px;
+    float: left;
+    box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
+  }
+  #tableau p {
+    height: 60px;
+    width: 235px;
+    background-color: coral;
+    float:right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 4px 4px 0 1px chocolate;
+  }
+  #tableau #tradition,#tableau #aquarel {
+    float: right;
+  }
+  #tradition p, #aquarel p {
+    float: left;
+    background-color: cyan;
+    margin-left: -200px;
+    box-shadow: -4px 4px 0 1px rgba(15,154,156,1);
+  }
+  /* ******************* FOOTER ******************** */
+  footer {
+    background-color: cornsilk;
+    color: #c2bead;
+    padding: 20px 0 10px 0;
+    text-align: center;
+  }
+  form {
+    margin: 0 auto;
+    max-width: 900px;
+  }
+  input, textarea {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8px;
+  }
+  button{
+      border-color: darkgrey;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8px;
+    color: black;
+
+  }
+  textarea {
+    height: 120px;
+  }
+  button {
+    font-size: 1.5em;
+    background-color: darkgrey;
+  }
+  button:hover {
+    background-color: coral;
+    color: #FFFAE1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  #deuxiemeTrait {
+    height: 1px;
+    width: 75%;
+    background-color: darkgrey;
+    margin: 60px auto;
+  }
+  #copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+  }
+  #copyright {
+    width: 50%;
+    text-align: left;
+    color: darkgrey;
+  }
+  #icons {
+    width: 50%;
+    text-align: right;
+    color: coral;
+  }
+  #icons a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: coral; 
+  }
+  #icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+  }
+  
